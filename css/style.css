@@ -1,0 +1,164 @@
+
+
+/* GLOBAL STYLES
+---------------------------------------- */
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+   box-sizing: border-box;
+   font-size: 62.5%; /* Set the default to 10px */
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: #f7f7f7;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.6rem;
+   line-height: 1.4;
+}
+h1, h2, h3 {
+   font-family: 'Caveat', cursive;
+   font-weight: normal;
+}
+
+/* Header
+------------------------------------------ */
+header.header {
+   background: #ccc;
+}
+
+header.header h1 {
+   text-align: center;
+}
+
+/* Nav
+------------------------------------------ */
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background: #444;
+   overflow: hidden;
+}
+nav ul li a {
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   color: #f7f7f7;
+   background-color: #444;
+   padding: 0.5rem 0;
+   border-bottom: 1px solid #f7f7f7;
+}
+nav li a.current {
+   color: Gold;
+   background-color: #333;
+}
+
+/* Hover effect */
+.nav ul li a:hover {
+   color: black; 
+   background: #666;
+}
+
+/* Focus effect */
+.nav ul li a:focus {
+   color: black; 
+   background: #666;
+}
+
+/* breakpoint min-width 600px */
+@media screen and (min-width: 600px) {
+   header {
+      padding-bottom: 0.5rem;
+   }
+   nav {
+      width: 100%;
+   }
+   nav ul.flex-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0.5rem 0;
+      background: transparent;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;    
+   }
+   nav ul li a {
+      float: left;
+      padding: 0.5rem 1rem;
+      border: 1px solid #f7f7f7;
+      border-radius: 0.5rem;
+   }
+   nav ul li a:hover {
+      border: 1px solid #333;
+      box-shadow: none;
+   } 
+}
+
+/* Main
+--------------------------------------------------- */
+main {
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 1rem;
+   background: #f7f7f7;
+}
+
+/* FOOTER
+--------------------------------------------------- */
+footer {
+   color: #f7f7f7;
+   background-color: #333;
+}
+footer p {
+   font-size: 1.2rem;
+   padding-bottom: 1rem;
+}
+footer a {
+   color: Dodgerblue;
+}
+footer a:hover {
+   color: #bcaa96;
+}
+.socials {
+   list-style-type: none;
+   padding: 0;
+}
+.socials li {
+   display: inline-block;
+   margin-left: 1rem;
+}
+.socials img {
+   width: 32px;
+}
+.socials img:hover {
+   opacity: 0.5;
+}
+
+/* breakpoint 600px */
+@media screen and (min-width: 860px) {
+   footer .flex-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      max-width: 960px;
+      margin: 0 auto;
+   }
+}
+/* breakpoint 859px */
+@media screen and (max-width: 859px) {
+   footer .flex-container {
+      text-align: center;
+      padding: 1rem;
+   }
+}
