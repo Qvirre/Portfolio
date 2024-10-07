@@ -18,49 +18,68 @@
       <link rel="stylesheet" href="css/style.css">
    </head>
 
-   <body>
+   <body class="home flex-container-home">
 
-      <header class="header">
-         <h1>My Personal Portfolio</h1>
+      <div class="flexbox-home-1">
 
-         <nav class="nav">
-            <ul class="flex-container">
-               <li><a href="#" class="current">Home</a></li>
-               <li><a href="about.html">About</a></li>
-               <li><a href="projects.html">Projects</a></li>
-               <li><a href="contact.html">Contact</a></li>
-            </ul>
-         </nav>
-      </header>
-      
-      <main class="main"><!-- Marks what is the main content of the page. -->
-         <header>
-            <h2>Anders Qvist</h2>
-            <p>Text</p>
+         <header class="main-header">
+            <h1>My Personal Portfolio</h1>
+
+            <nav class="main-nav">
+               <ul class="flex-container-nav">
+                  <li><a href="#" class="current">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+               </ul>
+            </nav>
          </header>
-      </main>
+            
+         <main class="main"><!-- Marks what is the main content of the page. -->
+                  
+            <section class="content-bg">
+               <header>
+                  <h2>Anders Qvist</h2>
+                  <h3>JavaScript for web development</h3>
+               </header>
+                     
+               <div class="newspaper"><!-- Marks what is the main content of the page. -->
+                  <p>
+                     Javascript is a programming language for the web and today forms a large part of the web stack. This course is basic 
+                     and focuses on the client side (browser) and how Javascript can be used to make web pages interactive and dynamic and 
+                     improve their functionality. The course is suitable for those who have no previous experience in programming or web 
+                     development. Even you who can program and are interested in learning a new programming language in a new context can 
+                     enjoy this course.
+                  </p>
+                  <p>To learn more about my work history, check out my <a href="about.html"> about</a>. Thanks for stopping by!</p>
+               </div>
+            </section>
+
+         </main>
+
+      </div> 
 
       <!-- //  FOOTER INFO, SOCIAL MEDIA  // -->
       <footer>
-         <div class="flex-container">
-            <p>© 2024 by Anders Qvist | <a href="mailto:someone@example.com">someone@example.com</a></p>
+            <div class="flex-container-socials">
+               <p>© 2024 by Anders Qvist | <a href="mailto:someone@example.com">someone@example.com</a></p>
 
-            <ul class="socials">
-               <li>
-                  <a href="https://github.com/Qvirre/" target="_blank"><img src="images/github-mark-white.png" alt="My GitHub profile"></a>
-               </li>
-               <li>
-                  <a href="https://www.linkedin.com/in/anders-qvist-1286abb/" target="_blank"><img src="images/icon-logo-linkedin.png" alt="My LinkedIn profile"></a>
-               </li>
-               <li>
-                  <a href="https://www.facebook.com/anders.qvist/" target="_blank"><img src="images/icon-logo-facebook.png" alt="My Facebook"></a>
-               </li>
-               <li>
-                  <a href="https://www.youtube.com/@A19N76Q/" target="_blank"><img src="images/icon-logo-youtube.png" alt="My YouTube channel"></a>
-               </li>         
-            </ul>
-         </div>    
-      </footer> 
+               <ul class="socials">
+                  <li>
+                     <a href="https://github.com/Qvirre/" target="_blank"><img src="images/github-mark-white.png" alt="My GitHub profile"></a>
+                  </li>
+                  <li>
+                     <a href="https://www.linkedin.com/in/anders-qvist-1286abb/" target="_blank"><img src="images/icon-logo-linkedin.png" alt="My LinkedIn profile"></a>
+                  </li>
+                  <li>
+                     <a href="https://www.facebook.com/anders.qvist/" target="_blank"><img src="images/icon-logo-facebook.png" alt="My Facebook"></a>
+                  </li>
+                  <li>
+                     <a href="https://www.youtube.com/@A19N76Q/" target="_blank"><img src="images/icon-logo-youtube.png" alt="My YouTube channel"></a>
+                  </li>         
+               </ul>
+            </div>    
+      </footer>
       
    </body>
 
