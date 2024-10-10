@@ -17,7 +17,7 @@
       <link rel="stylesheet" href="css/style.css">
    </head>
 
-   <body>
+   <body class="about">
 
       <header class="main-header">
          <h1>My Personal Portfolio</h1>
@@ -32,11 +32,146 @@
          </nav>
       </header>
 
-      <main class="main">
-         <header>
-            <h2>About</h2>
-            <p>Text</p>
-         </header>
+      <main class="main content-wrapper">
+
+         <!-- //  INTRO  // -->
+         <section class="flex-container-intro">
+            <div class="flexbox-portrait"> 
+               <img class="portrait" src="images/aq-200px.jpg" alt="A portrait of Anders Qvist." />
+            </div>
+            <div>
+               <h2>Anders Qvist</h2>
+               <h3>Web developer with people at the center</h3>
+            </div>      
+         </section>
+
+         <!-- //  PROFILE  // -->
+         <section class="about-section profile-section">
+            <h2>Profile</h2>
+            <div class="newspaper">
+               <p>
+                  I am passionate about creating user-friendly interfaces.
+                  To use HTML5 and CSS3 in a semantically correct way to develop
+                  accessible websites. For me, it is important that the web interface
+                  is user-friendly (UX) and puts people at the center.
+               </p>
+               <p>
+                  Responsive web design opens up new possibilities and instead of
+                  device-specific websites, flexible layouts and media queries can be
+                  used to create customizable web interfaces. They can adapt to an almost
+                  infinite range of different screen sizes.
+               </p>
+            </div>
+         </section>
+
+         <!-- //  Programming language  // -->
+         <section class="about-section">
+            <h2>Programming language</h2>
+            
+            <div class="content-wrapper">
+               <section class="table-item">
+                  <h3>HTML, CSS and JavaScript are the core languages of the web</h3>
+                  <table>
+                     <caption>HTML, CSS and JavaScript</caption>
+                     <tr>
+                        <th>Language</th>
+                        <th>Explanation</th>
+                        <th>Performance</th>
+                     </tr>
+                     <tr>
+                        <td><strong>HTML</strong></td>
+                        <td>Hyper Text Markup Language</td>
+                        <td>Markup language for hypertext</td>
+                     </tr>
+                     <tr>
+                        <td><strong>CSS</strong></td>
+                        <td>Cascading Style sheets</td>
+                        <td>Describes the presentation style</td>
+                     </tr>
+                     <tr>
+                        <td><strong>JS</strong></td>
+                        <td>JavaScript</td>
+                        <td>Scripting language</td>
+                     </tr>
+                  </table>
+
+               </section>
+            </div>
+         </section>
+
+         <!-- //  WORK EXPERIENCE  // -->
+         <section class="about-section work-section">
+            <h2>Work Experience</h2>
+            <p>My complete work history is available on <a href="https://www.linkedin.com/in/anders-qvist-1286abb/" target="_blank">LinkedIn</a>.</p>
+            
+            <!-- To add more items, copy this whole <section></section> block -->
+            <section class="work-item">
+               <div class="work-details">
+                  <h3>Administrator</h3>
+                  <p><strong>Folkuniversitetet</strong></p>
+                  <p>2013 - 2014</p>
+               </div>
+               <div class="work-summary">
+                  <p>Web manager for 400 meeting places. PHP and MySQL.</p>
+               </div>
+            </section>
+
+            <section class="work-item">
+               <div class="work-details">
+                  <h3>Delivery Engineer</h3>
+                  <p><strong>UIQ Technology AB</strong></p>
+                  <p>2007 - 2009</p>
+               </div>
+               <div class="work-summary">
+                  <p>
+                     My main duties were to integrate, build and deliver UIQ components to our customers.
+                     We also functioned as the interface between our customers and UIQ's software developers.
+                  </p>
+               </div>
+            </section>
+
+         </section>
+
+         <!-- //  EDUCATION  // -->
+         <section class="about-section education-section">
+            <h2>Education</h2>
+
+            <!-- To add more items, copy this whole <section></section> block -->
+            <section class="education-item">
+               <h3>Kristianstad University</h3>
+               <p><strong>DA559A - Introduction to backend development</strong></p>
+               <div class="newspaper">
+               <p>
+                  Explore the world of backend development with the course "Introduction to
+                  backend development"! This comprehensive entry-level course is perfect for
+                  those who want to deepen their knowledge in data science and backend
+                  development. Through the course, you get a solid foundation in backend
+                  development, including relational databases and important security aspects
+                  in web development. You will explore client and server application models,
+                  develop backend applications, work with HTTP servers, use Node.js, create
+                  database schemas and SQL, and develop APIs that follow REST principles.
+                  In addition, important security concepts such as authorization and
+                  authentication are included.
+               </p>
+            </div>
+            </section>
+
+            <section class="education-item">
+               <h3>Kristianstad University</h3>
+               <p><strong>DA558A - JavaScript for web development</strong></p>
+               <div class="newspaper">
+                  <p>
+                     Javascript is a programming language for the web and today forms a large part of the web
+                     stack. This course is basic and focuses on the client side (browser) and how Javascript
+                     can be used to make web pages interactive and dynamic and improve their functionality.
+                     The course suits you who have no previous experience in programming or web development.
+                     Even you who can program and are interested in learning a new programming language in a
+                     new context can greatly enjoy this course.
+                  </p>
+               </div>
+            </section>
+         </section>         
+
       </main>
 
       <!-- //  FOOTER INFO, SOCIAL MEDIA  // -->
@@ -46,13 +181,13 @@
 
             <ul class="socials">
                <li>
-                  <a href="https://github.com/Qvirre/" target="_blank"><img src="images/github-mark-white.png" alt="My GitHub profile"></a>
+                  <a href="https://github.com/Qvirre/Portfolio/" target="_blank"><img src="images/github-mark-white.png" alt="My GitHub profile"></a>
                </li>
                <li>
                   <a href="https://www.linkedin.com/in/anders-qvist-1286abb/" target="_blank"><img src="images/icon-logo-linkedin.png" alt="My LinkedIn profile"></a>
                </li>
                <li>
-                  <a href="https://www.facebook.com/anders.qvist/" target="_blank"><img src="images/icon-logo-facebook.png" alt="My Facebook"></a>
+                  <a href="https://www.facebook.com/anders.qvist.58/" target="_blank"><img src="images/icon-logo-facebook.png" alt="My Facebook"></a>
                </li>
                <li>
                   <a href="https://www.youtube.com/@A19N76Q/" target="_blank"><img src="images/icon-logo-youtube.png" alt="My YouTube channel"></a>
