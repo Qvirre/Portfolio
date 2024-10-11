@@ -1,0 +1,59 @@
+Grade 4 Task: Comprehensive Personal Portfolio
+
+Objective: Develop a detailed personal portfolio website showcasing broad HTML and CSS skills.
+
+Requirements:
+
+   1. Create a multi-page website (minimum 3 pages) with a cohesive theme and structure.
+   2. Utilize semantic HTML tags and ensure accessibility.
+   3. Include multiple images with alt text, highlighting different skills or projects.
+   4. Create a personal section with skills, a journey timeline, and a detailed project section.
+   5. Design a navigation bar with enhanced hover and focus effects.
+       * How to Implement: Use CSS to change colors, add transitions, or include animations when links are hovered over or focused on, improving user experience and accessibility.
+   6. Integrate a detailed contact form using the mailto: function for submission.
+       * How to Implement: Include fields for name, email, and message, ensuring all fields have appropriate labels for accessibility.
+   7. Employ external CSS for styling, using advanced selectors and organized stylesheet sections.
+       * How to Implement: Group CSS rules logically (e.g., navigation styles, layout styles, button styles) and make use of CSS specificity to style elements effectively.
+   8. Incorporate animations, gradients, shadows, and transitions in CSS.
+   9. Apply advanced responsive design techniques for various devices.
+       * How to Implement: Set breakpoints in your CSS to adjust layout, font sizes, and images based on the screen size, providing an optimal experience on desktops, tablets, and smartphones.
+  10. Design a detailed footer with quick links, contact details, and social media icons.
+
+       * Contact Form Link: Provide a link to a contact form, making it easy for users to reach out.
+
+       * Social Media Icons: Include recognizable icons linking to your social media profiles to encourage connections.
+
+       * Quick Navigation Links: Add important links (e.g., Home, About, Portfolio) for easy access to key sections of the site.
+	  
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Betyg 4 Uppgift: Omfattande personlig portfölj
+
+Mål: Utveckla en detaljerad personlig portföljwebbplats som visar breda HTML- och CSS-kunskaper.
+
+Krav:
+
+Ok!  1. Skapa en flersidig webbplats (minst 3 sidor) med ett sammanhållet tema och struktur.
+Ok!  2. Använd semantiska HTML-taggar och säkerställ tillgänglighet.
+Ok!  3. Inkludera flera bilder med alternativ text, framhäv olika färdigheter eller projekt.
+Ok!  4. Skapa ett personligt avsnitt med färdigheter, en tidslinje för resan och en detaljerad projektdel.
+Ok!  5. Designa ett navigeringsfält med förbättrade hovrings- och fokuseffekter. 
+Ok!	  * Så här implementerar du: Använd CSS för att ändra färger, lägga till övergångar eller inkludera animationer när länkar hålls
+Ok!     över eller fokuseras på, vilket förbättrar användarupplevelsen och tillgängligheten.
+Ok!  6. Integrera ett detaljerat kontaktformulär med funktionen mailto: för inlämning. 
+Ok!	  * Hur man implementerar: Inkludera fält för namn, e-post och meddelande, och se till att alla fält har lämpliga etiketter för tillgänglighet. 
+Ok!  7. Använd extern CSS för styling, med hjälp av avancerade väljare och organiserade formatmallssektioner.
+Ok!	  * Hur man implementerar: Gruppera CSS-regler logiskt (t.ex. navigeringsstilar, layoutstilar, knappstilar) och använd CSS-specificitet för att utforma element effektivt.
+Ok!  8. Inkludera animationer, övertoningar, skuggor och övergångar i CSS.
+Ok!  9. Tillämpa avancerad responsiv designteknik för olika enheter.
+Ok!	  * Så här implementerar du: Ställ in brytpunkter i din CSS för att justera layout, teckenstorlekar och bilder baserat på skärmstorleken,
+Ok!	    vilket ger en optimal upplevelse på stationära datorer, surfplattor och smartphones.
+Ok! 10. Designa en detaljerad sidfot med snabblänkar, kontaktuppgifter och ikoner för sociala medier.
+
+Ok!	  * Kontaktformulärlänk: Ge en länk till ett kontaktformulär, vilket gör det enkelt för användare att nå ut.
+
+Ok!	  * Ikoner för sociala medier: Inkludera igenkännbara ikoner som länkar till dina sociala medieprofiler för att uppmuntra kontakter.
+
+	  * Snabbnavigeringslänkar: Lägg till viktiga länkar (t.ex. Hem, Om, Portfölj) för enkel åtkomst till viktiga delar av webbplatsen.
+		Skicka feedback
+

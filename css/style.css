@@ -1,4 +1,5 @@
 /* Style Portfolio by Anders Qvist 2024 */
+/* Congratulations! No errors have been found */
 
 /* GLOBAL STYLES
 ---------------------------------------- */
@@ -42,6 +43,11 @@ h2 {
 }
 h3 {
    font-size: 2.4rem;
+}
+h4 {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.6rem;
+   font-style: italic;
 }
 p {
    margin: 1.5rem 0;
@@ -142,6 +148,17 @@ header.main-header h1 {
    }  
 }
 
+/* Newspaper */
+/* Breakpoint min-width 800px */
+@media screen and (min-width: 800px) {
+   .newspaper {
+      column-count: 2;
+      column-gap: 2rem;
+   }
+   .newspaper p {
+      margin: 0;
+   }
+}
 /* HOME
 ---------------------------------------- */
 .flex-container-home {
@@ -153,9 +170,9 @@ header.main-header h1 {
    flex: 1 0 auto;  
 }
 .home {
-   background: url(../images/bg-home-office-studio.jpg) no-repeat;
+   background: url(../images/bg-home-office-studio.jpg);
    background-size: cover;
-   height: 100%;
+   height: 100%;  
 }
 .home .content-bg {
    background: rgb(255 255 255 / 0.9);
@@ -168,23 +185,27 @@ header.main-header h1 {
 
 /* breakpoint 600px */
 @media screen and (min-width: 600px) {
-   .home .main {
+   .home {
       width: 100%;     
    }
 }
 
 /* breakpoint 800px */
 @media screen and (min-width: 800px) {
-   .newspaper {
-      column-count: 2;
-      column-gap: 2rem;
+   .flex-container-content {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
    }
-   .newspaper p:first-of-type {
-      margin: 0;
+   .flex-container-content > div {
+      width: 48%;
    }
 }
 /* breakpoint 960px */
 @media screen and (min-width: 960px) {
+   .home .main {
+      margin: 2rem;
+   }
    .home .content-bg {
       margin: 2rem auto;
    }
