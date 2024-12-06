@@ -22,7 +22,7 @@ html {
 }
 html, body {
    height: 100%; 
- }
+}
 
 body {
    background: whitesmoke;
@@ -106,13 +106,13 @@ header.main-header h1 {
 /* Hover effect */
 .main-nav ul li a:hover {
    color: black; 
-   background: #999;
+   background: lightblue;
 }
 
 /* Focus effect */
 .main-nav ul li a:focus {
    color: black; 
-   background: #999;
+   background: lightblue;
 }
 
 /* Breakpoint min-width 600px */
@@ -431,12 +431,12 @@ tr:nth-child(odd) { background: #FFFFF0; }
 }
 .contact .form-section .btn:hover {
    color: black;
-   background: #999;
+   background: lightblue;
    transition: background-color 1s ease;   
 }
 .contact .form-section .btn:focus {
    color: black;
-   background: #999;
+   background: lightblue;
    transition: background-color 1s ease;  
    outline: 2px solid orange;  
 }
